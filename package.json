@@ -17,6 +17,7 @@
         "@adiwajshing/keyed-db": "^0.2.4",
         "@bochilteam/scraper": "^4.2.4",
         "@ffmpeg-installer/ffmpeg": "^1.1.0",
+        "@fizzxydev/baileys-pro": "^8.7.1",
         "@hapi/boom": "^10.0.0",
         "@whiskeysockets/baileys": "^6.7.17",
         "api-dylux": "^1.8.5",
