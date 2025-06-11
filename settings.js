@@ -12,7 +12,7 @@ global.packname = process.env.PACKNAME || "KAVI-X MD"
 global.author = process.env.AUTHOR || "Cyber Kavi"
 global.creator = process.env.CREATOR || "94702128378@s.whatsapp.net"
 global.botprefix = process.env.BOTPREFIX || "."
-global.restart = process.env.RESTART || true
+global.restart = process.env.RESTART || false
 global.mongoDB = process.env.MONGODB_URI || "mongodb+srv://kavishka:KAVImihi321@whatsapp-bot.ssmxc2a.mongodb.net/0766577249?retryWrites=true&w=majority&appName=whatsapp-bot"
 
 let file = require.resolve(__filename)
