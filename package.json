@@ -26,12 +26,13 @@
         "brainly-scraper": "^1.0.3",
         "cfonts": "^3.1.1",
         "chalk": "^4.1.2",
-        "cheerio": "1.0.0-rc.12",
+        "cheerio": "^1.0.0-rc.12",
         "child_process": "^1.0.2",
         "chowdown": "^1.2.6",
         "colors": "^1.4.0",
         "cookie": "^0.5.0",
         "crypto": "^1.0.1",
+        "css-select": "^5.1.0",
         "didyoumean": "^1.2.2",
         "dotenv": "^16.4.5",
         "emoji-api": "^1.0.2",
@@ -109,7 +110,6 @@
         "youtube-yts": "^2.0.0",
         "youtubedl-core": "^4.11.5",
         "yt-search": "^2.10.4",
-        "ytdl-core": "^4.11.5",
-        "css-select": "5.2.1"
+        "ytdl-core": "^4.11.5"
     }
 }
