@@ -2,9 +2,11 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   pull_request:
-    branches: [ main ]
+    branches:
+      - main
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -27,8 +29,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: Clean install dependencies
-      run: npm ci --legacy-peer-deps
+    - name: Install dependencies
+      run: npm install
 
     - name: Start application
       run: npm start
