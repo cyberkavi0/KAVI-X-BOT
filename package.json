@@ -18,7 +18,7 @@
         "@bochilteam/scraper": "^4.2.4",
         "@ffmpeg-installer/ffmpeg": "^1.1.0",
         "@hapi/boom": "^10.0.0",
-        "@whiskeysockets/baileys": "npm:kavi-x-md@^1.0.1",
+        "@whiskeysockets/baileys": "npm:baileys-mod@^6.8.5",
         "api-dylux": "^1.8.5",
         "aptoide-scraper": "^1.0.1",
         "awesome-phonenumber": "^4.4.0",
